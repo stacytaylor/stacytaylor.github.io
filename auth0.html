@@ -1,0 +1,159 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Auth0 Docs</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+  </head>
+
+  <body>
+  <header>
+    <nav class="topnav">
+          <ul>
+            <li class="logo"><a href="index.html">Stacy Taylor</a></li>
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+
+      <div id = "auth0">
+        <div class = "title">
+          <h1>Auth0 Docs Homepage Redesign</h1>
+        </div>
+      </div>
+    </header>
+
+  <main>
+    <div class = "page">
+    <div class = "container">
+      <h2>Overview</h2>
+      <p>Auth0, an authentication & authorization platform, provides developers with an easy to implement identity solution. Part of the developer experience is making sure our technical documentation is comprehensive and easy to use.</p>
+
+      <h3>My role</h3>
+      <p>I was the lead UX designer on this project and was responsible for creating user flows, wireframes, and prototypes. My team consisted of technical writers and a dedicated developer. I also collaborated with a UX researcher, another UX designer, and outside stakeholders and subject matter experts.</p>
+
+      <h3>The problem</h3>
+      <p>Auth0 has a talented team of technical writers, but unfortunately many of our users were having trouble getting to our technical docs from the docs homepage.</p>
+
+      <p>There were a handful of problems with the homepage that we set out to solve, including:
+
+      <ul>
+        <li>The only content users saw when the page first loaded was the quickstarts.</li>
+      <li>There were no visual cues that there’s additional content below the fold, creating a false bottom.</li>
+      <li>The search box too far down the page.</li>
+      <li>The only links to the actual documentation were in the curated content, which didn’t match the information architecture of the rest of the site.</li>
+      <li>We knew from previous usability tests that many users were clicking on the quickstarts as a way to get to the documentation, which falsely inflated quickstart usage statistics and made it difficult to determine what information users were actually looking for.</li>
+</ul>
+</p>
+      <h2>Project Kick Off</h2>
+        <p>To kick off the homepage redesign, our team got together for a week-long offsite with subject matter experts and stakeholders from throughout the company.</p>
+        <div class ="imgSmall">
+          <img src ="images/docs/OffsiteUserFlow.JPG">
+          <figcaption>User flow ideas</figcaption>
+        </div>
+
+        <p>After a week discussing personas, jobs to be done, content types, and user flows, the key takeaway from the offsite was that the docs homepage needed to do a better job of providing new or potential customers with a high level overview of how Auth0 solves their identity needs. We decided to take a jobs to be done approach, and identified the following key jobs: Add login to my app, Call an API, Protect my API, Manage my users, and Manage my SaaS App Access.</p>
+        <div class ="imgSmall">
+          <img src ="images/docs/whiteboarduserflow.JPG">
+          <figcaption>Initial ideation</figcaption>
+        </div>
+
+        <p>Along with these jobs we’d be creating two new content types: landing pages and microsites.</p>
+
+        <p>Landing pages would be intermediate pages between the homepage and the microsite and would provide a high-level overview of the job and links to the microsites.</p>
+
+        <p>Microsites would be a sort of one-stop-shop for learning a specific task, for example adding login to a single page app, and would include implementation diagrams, step-by-step instructions, and links to any relevant documentation.</p>
+
+      <h2>Ideation</h2>
+        <p>The initial user flow for that process:</p>
+        <div class ="imgLarge">
+              <img src ="images/docs/UserFlowV1.png">
+              <figcaption>Original user flow</figcaption>
+            </div>
+
+        <p>Once the user flow was defined I started sketching some ideas for the homepage, landing pages, and microsites.</p>
+        <div class ="imgSmall">
+          <img src ="images/docs/homepagesketch.JPG">
+          <figcaption>Homepage sketches</figcaption>
+        </div>
+
+        <p>From there I started working on some initial wireframes for the different page types:</p>
+
+
+        <p>One idea was to essentially keep the existing layout, but split the section above the fold into 2 panels: “Start Building a…” which led to the existing Quickstarts, and “I Want to…” which led to the landing pages, followed by microsites.</p>
+        <div class ="imgLarge wireframe">
+              <img src ="images/docs/splitscreen.png">
+              <figcaption>Split screen wireframe</figcaption>
+            </div>
+        <p>While this option would have been easiest to implement, it put a great deal of cognitive load on the user to have ten “most important” links above the fold.</p>
+
+
+        <p>Alternatively, a z-pattern design would provide an introduction to docs and a search box, a call to action for the quickstarts, an introduction to the jobs to be done, and an entry point into the docs.</p>
+        <div class ="imgLarge wireframe">
+              <img src ="images/docs/WFzpattern.png">
+              <figcaption>Zig-zag wireframe</figcaption>
+            </div>
+
+      <h2>User Testing</h2>
+        <p>I created a low-fidelity prototype out of the wireframes and worked with a UX researcher to do some initial usability testing. We met with three developers via Zoom, and sent them an InVision prototype to test while sharing their screen.</p>
+
+        <p>The usability testing showed that users didn't really understand what the jobs to be done were or understand the purpose of the microsites. We realized that we needed to be much more explicit about what to expect from the links on the homepage in order to properly frame the users' expectations.</p>
+
+        <p>We also found that the landing pages were confusing. Users were either frustrated by the extra click to get to the microsites or got hung up reading the landing pages and didn’t realize they were supposed to proceed beyond that page. We opted to remove the landing pages altogether in order simplify the user flow, even though it meant duplicating some of the information on the microsites.</p>
+        <div class ="imgLarge">
+              <img src ="images/docs/UserFlowV2.png">
+              <figcaption>Updated user flow</figcaption>
+            </div>
+      <h2>Design</h2>
+        <p>The next iteration of the homepage provided a clearer frame of reference for the jobs to be done and linked directly to the microsites.</p>
+
+        <div class ="imgLarge wireframe">
+              <img src ="images/docs/homepageupdated.png">
+              <figcaption>Updated wireframe</figcaption>
+            </div>
+
+        <p>I also moved the search box to the top of the page, and while the quickstarts maintained their position above the fold, having the cards straddle the gray and white backgrounds provided a clear visual clue that there is more content below.</p>
+
+        <p>An updated top navigation menu provides more direct access to the actual technical documentation. The curated content at the bottom of the homepage remains the same for the time being. The next major undertaking for the docs team is a restructuring of the site’s information architecture. Once that is completed, the curated content section will be updated to reflect the new structure.</p>
+
+        <p>I worked with another UX designer to continue to iterate on the visual design of the page. The last major update to the page was to add the headings “Start Building” and “Learn about Auth0” in order to further clarify the role of the different types of content on the page.</p>
+        <div class ="imgLarge wireframe">
+              <img src ="images/docs/homepagedelivery.png">
+              <figcaption>Final homepage design</figcaption>
+            </div>
+
+      <h2>Implementation and Testing</h2>
+        <p>I worked with our developer to implement the new homepage and microsite designs while the technical writers finalized the content of the microsites. The new design initially went live as part of an A/B test.</p>
+
+        <p>Our goals for the A/B test were to increase the use of the search box and decrease the use of the quickstarts. It may seem counterintuitive to want to decrease the use of quickstarts, but we knew from previous testing that the false bottom and lack of direct navigation to the documentation was falsely inflating their usage metrics, and we were hoping to establish a more realistic baseline.</p>
+
+        <p>Eliminating the false bottom and providing other links to the documentation on the homepage led to a 15% decrease in traffic to the quickstarts. Placing the search box above the fold led to a 67% increase in searches.</p>
+
+      <p>We also monitored usage statistics for the microsites. Since they were a new content type we didn’t have any existing data to compare, but we were able to establish a baseline and determine that roughly 5% of homepage traffic was going to one of the new microsites.</p>
+
+      <p>Given the general positive feedback and metrics, we decided to make the new homepage live for all users after a month of testing. After the first two weeks we found that there was:</p>
+      <ul>
+      <li>35% decrease in traffic to quickstarts</li>
+      <li>149% increase in search</li>
+      <li>103% increase in traffic to microsites</li>
+    </ul>
+</div>  <!--container-->
+</div> <!--page-->
+   </main>
+
+<footer>
+
+  <div class="footernav">
+        <ul>
+          <li class="email"><a href="mailto:stacy.taylor@gmail.com">stacy.taylor.gmail.com</a></li>
+          <li><a href= "https://twitter.com/thatstacytaylor"><img src="Icons/Twitter-logo.png"></a></li>
+          <li><a href="https://instagram.com/thatstacytaylor"><img src="Icons/Instagram.png"></a></li>
+          <li><a href="https://www.linkedin.com/in/stacyltaylor/"><img src="Icons/linkedin.png"></a></li>
+          <li><a href="https://medium.com/@stacy.taylor"><img src="Icons/medium.png"></a></li>
+        </ul>
+      </div> <!--footernav-->
+</footer>
+
+  </body>
+</html>
