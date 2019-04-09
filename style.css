@@ -10,10 +10,10 @@ body, .article {
   color: #333;
 }
 h1, .h1 {
-  font-size: 5rem;
-  line-height: 5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  font-size: 3.4rem;
+    line-height: 4.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 h2, .h2 {
   font-size: 2.25rem;
@@ -95,6 +95,7 @@ sub {
 
 .topnav a{
   line-height: 2rem;
+  letter-spacing: 1.5;
   text-transform: uppercase;
 }
 
@@ -102,6 +103,7 @@ li.logo{
   margin-right: auto;
 }
 
+/*
 .title{
   text-align: left;
   position: absolute;
@@ -111,28 +113,41 @@ li.logo{
   color: white;
   text-shadow: 0px 0px 2px #ccc;
 }
+*/
 
-
-.container {
-  max-width: 33rem;
-  margin-left: 33%;
-
+.title{
+  margin: auto;
+  max-width: 50rem;
 }
 
-.page img{
-  max-width: 100%;
+.container{
+  padding: .5rem;
+}
+
+.text {
+  max-width: 33rem;
+  margin: auto;
+}
+
+.imgLarge {
+margin: auto;
+margin-top: 3rem;
+max-width: 50rem;
 }
 
 .imgLarge img{
-margin-left: -25%;
-margin-top: 3rem;
-max-width: 150%;
+max-width: 100%;
 }
 
 
+.imgSmall {
+margin: auto;
+margin-top: 3rem;
+max-width: 33rem;
+}
+
 .imgSmall img{
   max-width: 100%;
-  margin-top: 3rem;
 }
 
 .imgLarge.wireframe img{
@@ -140,16 +155,16 @@ box-shadow: .8rem .8rem 2rem rgba(0, 0, 0, 0.12);
 border-radius: .5rem;
 }
 
-
+/*
 .parallax {
-  /* The image used */
+  /* The image used
   background-image: url("hero.jpg");
 
-  /* Full height */
+  /* Full height
   height: 100vh;
   width: 100vw;
 
-  /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -157,56 +172,57 @@ border-radius: .5rem;
 }
 
 #brooks {
-  /* The image used */
+  /* The image used
   background-image: url("images/brooks/brookshero.svg");
 
-  /* Full height */
+  /* Full height
   height: 100vh;
   width: 100vw;
 
-  /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect
  background-attachment: fixed;
 }
 
 #intel {
-  /* The image used */
+  /* The image used
   background-image: url("images/idz/intelhero.png");
 
-  /* Full height */
+  /* Full height
   height: 100vh;
   width: 100vw;
 
-  /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect
  background-attachment: fixed;
 }
 
 #nielsen {
-  /* The image used */
+  /* The image used
   background-image: url("images/nielsen/nielsenhero.png");
 
-  /* Full height */
+  /* Full height
   height: 100vh;
   width: 100vw;
 
-  /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect
  background-attachment: fixed;
 }
 
 #auth0 {
-  /* The image used */
+  /* The image used
   background-image: url("images/docs/auth0hero.png");
 
-  /* Full height */
+  /* Full height
   height: 100vh;
   width: 100vw;
 
-  /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect
  background-attachment: fixed;
 }
+*/
 
 .homeContent{
   margin: auto;
-  max-width: 1200px;
+  max-width: 60rem;
 }
 
 .cards{
@@ -249,8 +265,10 @@ border-radius: .5rem;
   margin: 6rem auto;
 }
 
+
 .footernav ul{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   list-style: none;
   padding: .5em;

@@ -17,16 +17,16 @@
           </ul>
         </nav>
 
-      <div id = "auth0">
-        <div class = "title">
-          <h1>Auth0 Docs Homepage Redesign</h1>
-        </div>
-      </div>
     </header>
 
   <main>
-    <div class = "page">
-    <div class = "container">
+    <div class ="container">
+
+    <div class = "title">
+      <h1>Auth0 Docs Homepage Redesign</h1>
+    </div>
+
+    <div class ="text">
       <h2>Overview</h2>
       <p>Auth0, an authentication & authorization platform, provides developers with an easy to implement identity solution. Part of the developer experience is making sure our technical documentation is comprehensive and easy to use.</p>
 
@@ -48,17 +48,23 @@
 </p>
       <h2>Project Kick Off</h2>
         <p>To kick off the homepage redesign, our team got together for a week-long offsite with subject matter experts and stakeholders from throughout the company.</p>
+      </div> <!-- text -->
+
         <div class ="imgSmall">
           <img src ="images/docs/OffsiteUserFlow.jpg">
           <figcaption>User flow ideas</figcaption>
         </div>
 
+        <div class ="text">
         <p>After a week discussing personas, jobs to be done, content types, and user flows, the key takeaway from the offsite was that the docs homepage needed to do a better job of providing new or potential customers with a high level overview of how Auth0 solves their identity needs. We decided to take a jobs to be done approach, and identified the following key jobs: Add login to my app, Call an API, Protect my API, Manage my users, and Manage my SaaS App Access.</p>
+      </div> <!-- text -->
+
         <div class ="imgSmall">
           <img src ="images/docs/whiteboarduserflow.JPG">
           <figcaption>Initial ideation</figcaption>
         </div>
 
+        <div class ="text">
         <p>Along with these jobs we’d be creating two new content types: landing pages and microsites.</p>
 
         <p>Landing pages would be intermediate pages between the homepage and the microsite and would provide a high-level overview of the job and links to the microsites.</p>
@@ -67,62 +73,83 @@
 
       <h2>Ideation</h2>
         <p>The initial user flow for that process:</p>
+        </div> <!-- text -->
         <div class ="imgLarge">
               <img src ="images/docs/UserFlowV1.png">
               <figcaption>Original user flow</figcaption>
             </div>
 
+            <div class ="text">
         <p>Once the user flow was defined I started sketching some ideas for the homepage, landing pages, and microsites.</p>
-        <div class ="imgSmall">
+      </div>
+
+          <div class ="imgSmall">
           <img src ="images/docs/homepagesketch.JPG">
           <figcaption>Homepage sketches</figcaption>
         </div>
 
+        <div class ="text">
         <p>From there I started working on some initial wireframes for the different page types:</p>
 
 
         <p>One idea was to essentially keep the existing layout, but split the section above the fold into 2 panels: “Start Building a…” which led to the existing Quickstarts, and “I Want to…” which led to the landing pages, followed by microsites.</p>
+        </div> <!-- text -->
+
         <div class ="imgLarge wireframe">
               <img src ="images/docs/splitscreen.png">
               <figcaption>Split screen wireframe</figcaption>
             </div>
+
+            <div class ="text">
         <p>While this option would have been easiest to implement, it put a great deal of cognitive load on the user to have ten “most important” links above the fold.</p>
 
 
         <p>Alternatively, a z-pattern design would provide an introduction to docs and a search box, a call to action for the quickstarts, an introduction to the jobs to be done, and an entry point into the docs.</p>
+        </div> <!-- text -->
+
         <div class ="imgLarge wireframe">
               <img src ="images/docs/WFzpattern.png">
               <figcaption>Zig-zag wireframe</figcaption>
             </div>
 
+            <div class ="text">
       <h2>User Testing</h2>
         <p>I created a low-fidelity prototype out of the wireframes and worked with a UX researcher to do some initial usability testing. We met with three developers via Zoom, and sent them an InVision prototype to test while sharing their screen.</p>
 
         <p>The usability testing showed that users didn't really understand what the jobs to be done were or understand the purpose of the microsites. We realized that we needed to be much more explicit about what to expect from the links on the homepage in order to properly frame the users' expectations.</p>
 
         <p>We also found that the landing pages were confusing. Users were either frustrated by the extra click to get to the microsites or got hung up reading the landing pages and didn’t realize they were supposed to proceed beyond that page. We opted to remove the landing pages altogether in order simplify the user flow, even though it meant duplicating some of the information on the microsites.</p>
+        </div> <!-- text -->
+
         <div class ="imgLarge">
               <img src ="images/docs/UserFlowV2.png">
               <figcaption>Updated user flow</figcaption>
             </div>
+
+          <div class ="text">
       <h2>Design</h2>
         <p>The next iteration of the homepage provided a clearer frame of reference for the jobs to be done and linked directly to the microsites.</p>
+        </div> <!-- text -->
 
         <div class ="imgLarge wireframe">
               <img src ="images/docs/homepageupdated.png">
               <figcaption>Updated wireframe</figcaption>
             </div>
 
+            <div class ="text">
         <p>I also moved the search box to the top of the page, and while the quickstarts maintained their position above the fold, having the cards straddle the gray and white backgrounds provided a clear visual clue that there is more content below.</p>
 
         <p>An updated top navigation menu provides more direct access to the actual technical documentation. The curated content at the bottom of the homepage remains the same for the time being. The next major undertaking for the docs team is a restructuring of the site’s information architecture. Once that is completed, the curated content section will be updated to reflect the new structure.</p>
 
         <p>I worked with another UX designer to continue to iterate on the visual design of the page. The last major update to the page was to add the headings “Start Building” and “Learn about Auth0” in order to further clarify the role of the different types of content on the page.</p>
+          </div> <!-- text -->
+
         <div class ="imgLarge wireframe">
               <img src ="images/docs/homepagedelivery.png">
               <figcaption>Final homepage design</figcaption>
             </div>
 
+<div class ="text">
       <h2>Implementation and Testing</h2>
         <p>I worked with our developer to implement the new homepage and microsite designs while the technical writers finalized the content of the microsites. The new design initially went live as part of an A/B test.</p>
 
@@ -138,8 +165,9 @@
       <li>149% increase in search</li>
       <li>103% increase in traffic to microsites</li>
     </ul>
+    </div> <!-- text -->
 </div>  <!--container-->
-</div> <!--page-->
+
    </main>
 
 <footer>
