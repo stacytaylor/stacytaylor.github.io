@@ -260,7 +260,7 @@ border-radius: .5rem;
 .profile img{
   border-radius: 50%;
   float:right;
-max-width: 10rem;
+  max-width: 10rem;
 }
 
 .footernav{
