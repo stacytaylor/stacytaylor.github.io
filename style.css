@@ -6,7 +6,7 @@ html, .root {
 body, .article {
   font-family: "Work Sans", Arial, sans-serif;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.75rem;
   color: #333;
 }
 h1, .h1 {
@@ -68,6 +68,10 @@ a{
   color: #666;
   text-decoration: none;
 }
+.underline {
+  border-bottom: 3px solid #FFCB0A;
+}
+
 sub, sup {
   line-height: 0;
   position: relative;
@@ -125,7 +129,7 @@ li.logo{
 }
 
 .text {
-  max-width: 33rem;
+  max-width: 36rem;
   margin: auto;
 }
 
